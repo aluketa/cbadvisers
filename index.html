@@ -1,0 +1,198 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>CB Advisers Limited</title>
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/cbadvisers.css">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script>
+        $(document).scroll(function() {
+            if ($(this).scrollTop() > 200) {
+                $('.cb-navbar').addClass('compact');
+                $('.logo-img').addClass('compact');
+                $('.cb-navlinks').addClass('compact');
+                $('.contact-details').hide();
+            } else {
+                $('.cb-navbar').removeClass('compact');
+                $('.logo-img').removeClass('compact');
+                $('.cb-navlinks').removeClass('compact');
+                $('.contact-details').show();
+            }
+        });
+    </script>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top cb-navbar">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#cbNavbarCollapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <img src="img/title-18.png" class="logo-img"/>
+        </div>
+        <div class="collapse navbar-collapse" id="cbNavbarCollapse">
+            <ul class="nav navbar-nav cb-navlinks">
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+<!--                <li><a href="blog/">Blog</a></li>-->
+<!--                <li><a href="members.html">Members</a></li>-->
+            </ul>
+        </div>
+        <div class="contact-details">
+            <div class="collapse navbar-collapse">
+                <div>
+                    <span class="glyphicon glyphicon-phone-alt contact-icon"></span>
+                    <span class="cb-grey contact-text">+44 7710 503211</span>
+                </div>
+                <div style="margin-top: 5px">
+                    <span class="glyphicon glyphicon-envelope contact-icon"></span>
+                    <a href="mailto:info@cbadvisers.co.uk">info@cbadvisers.co.uk</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="container-fluid backdrop">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="title-text">
+                    Sourcing Finance and Liquidity for the Project Export Finance Market
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="main-body">
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <p class="lead featurette-text" style="font-size: 20pt; margin-top: 15px; margin-bottom: 15px;">
+                CB Advisers are financial brokers specialising in matching investors with investment opportunities in project and export credit finance.
+            </p>
+<!--            <p class="lead featurette-text">-->
+<!--                To find out more details on projects that are currently open for investment, please sign-up for access to our members area. Alternatively, if you would like to be kept informed of new developments, please sign up to our mailing list.-->
+<!--            </p>-->
+<!--            <div style="text-align: center">-->
+<!--                <button class="btn btn-default" onclick="window.location = '/members.html'">Register for Members Access</button>-->
+<!--                <hr style="margin-top: 15px; margin-bottom: 15px"/>-->
+<!--                <div id="mailingListForm" style="max-width: 500px; margin-left: auto; margin-right: auto;"></div>-->
+<!--            </div>-->
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 featurette">
+            <h3 class="featurette-heading" style="margin-top: 0">What is export finance?</h3>
+            <p class="lead featurette-text">
+                Export finance is a loan or financing facility that is extended to overseas projects and buyers that make
+                use of exported goods and services from a given country. The loan is guaranteed against default by the
+                government of the country benefiting from the export of goods and services.
+            </p>
+            <p class="lead featurette-text">
+                An example of how an export finance loan might be structured is outlined below:
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="featurette">
+            <div class="col-md-6" style="text-align: center">
+                <img src="img/how-it-works.svg" style="width: 100%; max-width: 500px; margin-bottom: 20px">
+            </div>
+            <div class="col-md-6">
+                <p class="lead featurette-text"><span class="circle">1</span>Investor lends money (via a bank) to an external project for a fixed term with a set rate of interest</p>
+                <p class="lead featurette-text"><span class="circle">2</span>The project uses this investments to purchase goods and services from a UK based supplier</p>
+                <p class="lead featurette-text"><span class="circle">3</span>In order to support the UK based export, the UK government, via the UK Credit Export Agency, will guarantee the loan against default</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <p class="lead featurette-text">There are many advantages export finance has as an investment product, some of these are outlined in more detail below:</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 featurette">
+            <h3 class="featurette-heading" style="margin-top: 0">Low risk</h3>
+            <p class="lead featurette-text">
+                One of the key tenets of a balanced investment portfolio is the holding of a portion of capital where it can be preserved or protected against loss.
+            </p>
+            <p class="lead featurette-text">
+                Export finance, by its very nature, provides capital preservation. While the end borrowers may originate from a wide variety of risk profiles, each investment in export finance is backed by a Government that will benefit from increased export activity.
+            </p>
+            <p class="lead featurette-text">
+                In the event of a default, a majority portion (typically 100%) of the loan is insured and will be paid back by the supporting Government.
+            </p>
+        </div>
+    </div>
+    <div class="row grey-background">
+        <div class="col-md-12 featurette">
+            <h3 class="featurette-heading">Competitive returns</h3>
+            <p class="lead featurette-text">
+                While the risk profile of export finance investments is similar to that of Gilt/Treasury instruments, returns are often higher, with typical yields in the region of 80-120 basis points over LIBOR.
+            </p>
+            <p class="lead featurette-text">
+                Returns vary depending on the project type and terms and the credit worthiness of the borrower. However, the underlying risk profile of the investment is not affected and remains linked to that of the Government backing the loan.
+            </p>
+            <p class="lead featurette-text">
+                Both fixed and floating returns are available, providing flexibility and opportunities to hedge against inflation.
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 featurette">
+            <h3 class="featurette-heading">Diversification</h3>
+            <p class="lead featurette-text">
+                Diversification is an important factor in most investment portfolios and the unique risk profile of export finance offers considerable opportunities for the further diversification of existing portfolios.
+            </p>
+            <p class="lead featurette-text">
+                Export finance is an ideal investment to further diversify existing portfolios that offer low risk, consistent returns with capital protection. While export finance enjoys government guarantees, the performance of the investment is not tightly coupled to that of the backing government. This provides diversification to funds that already hold fixed income instruments such as government bonds, gilts and treasuries.
+            </p>
+        </div>
+    </div>
+    <div class="row grey-background">
+        <div class="col-md-12 featurette">
+            <h3 class="featurette-heading">Promotes economic growth</h3>
+            <p class="lead featurette-text">
+                Loans will always be invested in major infrastructure projects, many of which will benefit from a green environmental designation, which improve the economic prospects of the borrowing country.
+            </p>
+            <p class="lead featurette-text">
+                As per design, export finance increases exports and promotes economic growth in the jurisdiction of the government backing the loan.
+            </p>
+            <p class="lead featurette-text">
+                This leads to an investment product with a range of benefits that enjoys substantial political will.
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 featurette">
+            <h3 class="featurette-heading">What we do</h3>
+            <ul class="lead featurette-text">
+                <li>Provide advisory services including process and financial pricing.</li>
+                <li>Establish contacts with financial institutions and, where appropriate, government decision makers.</li>
+                <li>Demonstrate product knowledge (with over 20 years' experience with 23 different ECAs, multilateral and associated commercial debt lending).</li>
+                <li>Promote multi-sourcing ideas and solutions.</li>
+                <li>Provide a technology platform that connects investors to a diverse pool of projects.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+<div class="container-fluid footer">
+    <div class="row">
+        <div class="col-md-12">
+            &copy; CB Advisers Limited 2017. All rights reserved.
+        </div>
+    </div>
+</div>
+</body>
+</html>

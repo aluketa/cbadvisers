@@ -1,0 +1,275 @@
+.btn-default {
+    background: none;
+}
+
+.btn-primary, .btn-primary:active, .btn-primary:hover:active, .btn-primary:focus, .btn-primary:hover:focus, .btn-primary:active:focus {
+    background: rgba(153, 0, 0, 0.8);
+    border-color: rgba(130, 0, 0, 1.0);
+}
+
+.btn-primary:hover, .btn-primary:disabled, .btn-primary:hover:disabled  {
+    background-color: rgba(153, 0, 0, 0.7);
+    border-color: rgba(130, 0, 0, 1.0);
+}
+
+.cb-navbar {
+    background: rgba(255, 255, 255, 0.8);
+    height: 95px;
+}
+
+.cb-navbar.compact {
+    height: 50px;
+}
+
+.logo-img {
+    height: 25px;
+    margin-top: 36px
+}
+
+.logo-img.compact {
+    margin-top: 10px
+}
+
+.title-text {
+    text-align: center;
+    font-size: 48px;
+    color: white;
+    padding: 5px;
+    margin: 120px 30px 30px;
+}
+
+.cb-navlinks {
+    margin-top: 28px;
+    margin-right: 210px;
+    float: right!important;
+}
+
+.cb-navlinks.compact {
+    margin-top: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #4d4d4d;
+    height: 100%;
+}
+
+.main-body {
+    background-color: white;
+    color: #4d4d4d;
+    min-height: 95%
+}
+
+hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 767px) {
+    .cb-navbar {
+        background: rgba(255, 255, 255, 0.8);
+        height: 50px;
+    }
+
+    .cb-navlinks {
+        margin: 0;
+        background: rgba(255, 255, 255, 0.8);
+        float: none;
+    }
+
+    .logo-img {
+        margin-top: 9px;
+        margin-left: 7px;
+    }
+
+    .title-text {
+        margin-top: 90px;
+        font-size: 36px;
+    }
+}
+
+.navbar-default .navbar-nav > li > a, a {
+    color: #4d4d4d
+}
+
+p > a {
+    color: #4d4d4d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover,
+a:focus,
+a:hover {
+    color: #990000;
+    text-decoration: none;
+}
+
+.backdrop {
+    background-image: url(../img/dubai.jpg);
+    background-size: cover;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: local;
+}
+
+.cb-purple {
+    color: #990000;
+}
+
+.cb-grey {
+    color: #4d4d4d
+}
+
+.contact-details {
+    float: right;
+    position: relative;
+    left: 10px;
+    top: -58px;
+    font-size: 18px;
+}
+
+.contact-icon {
+    margin-right: 5px;
+    color: #990000;
+}
+
+.featurette {
+
+}
+
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: 0;
+    color: #990000;
+}
+
+.featurette-text {
+    letter-spacing: 0.2px;
+    font-size: medium;
+    color: #4d4d4d
+}
+
+.grey-background {
+    background-color: rgba(220, 220, 220, 1.0);
+}
+
+.circle {
+    border: #990000 solid 1px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 5px;
+    color: #990000;
+}
+
+.footer {
+    background-color: #4d4d4d;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: x-small;
+    text-align: center;
+    color: white;
+}
+
+div.anchor {
+    display: block;
+    position: relative;
+    top: -70px;
+    visibility: hidden;
+}
+
+.cb-header {
+    color:#990000;
+    font-size:18px;
+}
+
+.sub-header {
+    font-style: italic;
+    font-size: 13px;
+}
+
+img.about {
+    width: 200px;
+    height: 250px;
+    margin: 5px;
+}
+
+@media (max-width: 991px) {
+    img.about {
+        width: 100px;
+        height: 125px;
+        margin: 5px;
+    }
+}
+
+div.big-spinner {
+    text-align: center;
+    margin-top: 25px;
+}
+
+span.big-spinner {
+    width: 50px;
+    height: 50px;
+}
+
+.spinner {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    animation: rotate 0.8s infinite linear;
+    border: 2px solid rgba(153, 0, 0, 0.8);
+    border-right-color: transparent;
+    border-radius: 50%;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.project-picture {
+    text-align: center;
+    display: block;
+    max-width: 300px;
+    margin: 5px auto 10px;
+    width: 100%;
+}
+
+.project-picture-placeholder {
+    font-size: 100px;
+    color: grey;
+}
+
+.other-details {
+    color: grey;
+    font-size: 12px;
+}
+
+.small {
+    font-size: x-small;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.spaced {
+    margin-bottom: 10px;
+}
+
+.blog-description {
+    margin-top: 10px;
+}
